@@ -1,0 +1,5 @@
+before_install:
+- apt-get -y update
+- apt-get -y install gawk unzip
+script:
+- ls -lAhSr
