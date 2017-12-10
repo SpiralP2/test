@@ -1,5 +1,6 @@
+language: cpp
 before_install:
-- apt-get -y update
-- apt-get -y install gawk unzip
+- echo apt-get -y update
+- echo apt-get -y install gawk unzip
 script:
 - ls -lAhSr
